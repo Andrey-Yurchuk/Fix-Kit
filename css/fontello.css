@@ -1,0 +1,29 @@
+/* see https://opencentr.ru/article/servis-fontello-v-kachestve-ikonok-dlya-dizajna/ */
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?5040357');
+    src: url('../font/fontello.eot?5040357#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff2?5040357') format('woff2'),
+    url('../font/fontello.woff?5040357') format('woff'),
+    url('../font/fontello.ttf?5040357') format('truetype'),
+    url('../font/fontello.svg?5040357#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+}
+
+.icon-graph:before { content: '\e800'; } /* '' */
+.icon-activity:before { content: '\e801'; } /* '' */
+.icon-filter:before { content: '\e802'; } /* '' */
+.icon-setting:before { content: '\e803'; } /* '' */
+
+
+
+
